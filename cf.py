@@ -9,7 +9,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("BOT_TOKEN", "8000401706:AAErIaSiOzrBeL3pxqG7W19yLZJrwCoEXkM")
+TOKEN = os.environ.get("BOT_TOKEN", "####")
 PORT = int(os.environ.get("PORT", "8443"))
 ENVIRONMENT = os.environ.get("ENVIRONMENT", "development")
 
